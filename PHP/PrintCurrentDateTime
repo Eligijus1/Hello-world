@@ -1,0 +1,3 @@
+// This php program will print current datetime in format Y.m.d H:i:s
+
+echo "Hello, today is: " . date_format(new \DateTime(), "Y.m.d H:i:s");
